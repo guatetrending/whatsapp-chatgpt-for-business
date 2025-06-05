@@ -16,16 +16,20 @@ You can talk to the bot in voice messages, the bot will transcribe and respond. 
 
 ## Requirements
 
--   Node.js (18 or newer)
--   A recent version of npm
--   An [OpenAI API key](https://beta.openai.com/signup)
--   A WhatsApp account
+- Node.js (18 or newer)
+- A recent version of npm
+- An [OpenAI API key](https://beta.openai.com/signup)
+- A WhatsApp account
 
 ## Documentation
 
 In the documentation you can find more information about how to install, configure and use this bot.
 
 <span style="font-size: 1.4rem;">➡️ https://askrella.github.io/whatsapp-chatgpt</span>
+
+## Chrome Extension
+
+The `chrome-extension` folder contains a simple example extension that lets you store contacts and send personalized messages on WhatsApp Web. Read the extension README for usage details.
 
 ## Disclaimer
 
@@ -43,6 +47,6 @@ NOTE: We can't guarantee that you won't be blocked using this method, although i
 
 ## Used libraries
 
--   https://github.com/transitive-bullshit/chatgpt-api
--   https://github.com/pedroslopez/whatsapp-web.js
--   https://github.com/askrella/speech-rest-api
+- https://github.com/transitive-bullshit/chatgpt-api
+- https://github.com/pedroslopez/whatsapp-web.js
+- https://github.com/askrella/speech-rest-api

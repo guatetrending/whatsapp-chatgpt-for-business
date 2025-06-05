@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "WhatsApp CRM Helper",
+	"version": "0.1",
+	"description": "Manage contacts and send personalized messages on WhatsApp Web.",
+	"permissions": ["activeTab", "storage", "scripting"],
+	"host_permissions": ["https://web.whatsapp.com/*"],
+	"action": {
+		"default_popup": "popup.html",
+		"default_title": "WhatsApp CRM"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://web.whatsapp.com/*"],
+			"js": ["content.js"]
+		}
+	]
+}
